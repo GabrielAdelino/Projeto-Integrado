@@ -25,7 +25,8 @@ signInButton.addEventListener('click', () => {
 	container.classList.remove("right-panel-active");
 });
 
-/*JS para input senha, olhinho pra esconder a senha :) */ 
+/*JS para input senha, olhinho pra esconder a senha :) */
+ 
 /*Olho img login*/
 let imgLogin = document.querySelector('.password-toggle');
 let inputLogin = document.querySelector('input[name="password"]');
