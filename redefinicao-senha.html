@@ -6,6 +6,7 @@
     <title>Redefinição Senha</title>
     <style>
         body {
+            font-weight: bold;
             font-family: Arial;
             background-image: linear-gradient(45deg, #407454, #3c7454);
             opacity: 0.9;
@@ -14,18 +15,32 @@
         .TelaRedefinirSenha {
             background-color: #fff;
             position: absolute;
-            top: 50px;
-            right: 450px;
-            padding: 40px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 80px;
             border-radius: 15px;
-	        justify-content: center;
-	        align-items: center;
+	        margin: -20px 0 50px;
             box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
         }
 
+        /*.TelaRedefinirSenha {
+            background-color: #fff;
+            border-radius: 15px;
+            position: relative;
+            overflow: hidden;
+            width: 700px;
+            max-width: 100%;
+            min-height: 430px;  
+        }*/
+
         input {
-            padding: 15px;
+            background: #eee;
+            border: none;
+            padding: 25px 25px;
+            margin: 5px 0;
+            width: 70%;
             border-radius: 5px;
             outline: none;
             font-size: 15px;
@@ -33,16 +48,23 @@
         
         button {
             background-color: #007aff;
-            border: none;
-            padding: 15px;
-            width: 225px;
-            border-radius: 10px;
-            color: #fff
+            border: 1px solid #007aff;
+            padding: 17px;
+            width: 80%;
+            border-radius: 20px;
+            color: #fff;
+            font-weight: Arial;
+            letter-spacing: 1px;
         }
 
         button:hover{
+            transition: transform 80ms ease-in;
             background-color: #085dc5;
             cursor: pointer;
+        }
+
+        div h1 {
+            margin-top: 15px;
         }
 
         div h3 {
@@ -63,7 +85,7 @@
         <input type="number" id="CPF" placeholder="Informe o CPF cadastrado">
         <br><br>
         <input type="number" id="Num" placeholder="Informe o número cadastrado">
-        <br><br>
+        <br><br><br>
         <!--Criar um laço if para quando a redefinição for realizada mostrar uma
         mensegm de confirmação de redefinição-->
         <button>Recuperar senha</button>
