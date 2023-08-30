@@ -129,3 +129,15 @@
             
         }
         
+        
+            .texto {
+                text-align: center;
+                margin-bottom: 20px; /* Reduzi um pouco o valor para melhor encaixar o conteúdo */
+                width: 80%; /* Aumentei a largura para ocupar uma porção maior da largura da tela */
+                height: auto; /* Alterei para altura automática, mas você pode definir um valor fixo se preferir */
+                background-color: #0d0c22 ;
+                padding: 20px; /* Adicionei padding para espaçamento interno */
+                color: white; /* Adicionei cor de texto para melhor contraste */
+            }
+            
+        
