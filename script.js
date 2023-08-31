@@ -2,7 +2,7 @@
 
 /*JS tela login/Cadastro */
 
-const signUpButton = document.getElementById('signUp');
+/*const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
 const container = document.getElementById('container');
 
@@ -12,7 +12,12 @@ signUpButton.addEventListener('click', () => {
 
 signInButton.addEventListener('click', () => {
 	container.classList.remove("right-panel-active");
+});*/
+
+document.getElementById("signUp").addEventListener("click", function() {
+    window.location.href = "pagina.Cadastro.html";
 });
+
 
 /*JS para input senha, olhinho pra esconder a senha :) */
  

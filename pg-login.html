@@ -71,6 +71,11 @@ button {
 	transition: transform 80ms ease-in;
 }
 
+button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
 button:active {
 	transform: scale(0.95);
 }
@@ -127,18 +132,6 @@ a {
 span {
 	font-size: 15px;
 }
-
-
-        /*.TelaRedefinirSenha {
-            background-color: #fff;
-            border-radius: 15px;
-            position: relative;
-            overflow: hidden;
-            width: 700px;
-            max-width: 100%;
-            min-height: 430px;  
-        }*/
-
         input {
 	    background-color: #eee;
 	    border: none;
@@ -156,7 +149,11 @@ span {
 
         .overlay-right {
 	    right: 0;
-        background-color: #FF4B2B;
+       
+        background: #FF416C;
+	    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	    background: linear-gradient(to right, #FF4B2B, #FF416C);
+        color: #FFFFFF;
 	    
 }
 
@@ -194,21 +191,22 @@ span {
 <body>
     <div class="container" id="container">
         <div class="form-container sign-in-container">
-            <form action="#">
+            <form action="pagina-inicio.html">
                 <h1>Login</h1><br>
                 <span>Use seus dados para acessar</span>
                 <input type="text" placeholder="CPF" />
                 <input type="password" name="password" placeholder="Sua senha" />
                 <img class="password-toggle" src="img.png/olho-aberto.png" alt="Ocultar Senha">
-                <a href="redefinicao-senha.html">Esqueceu sua senha?, redefina aqui</a>
+                <a href="redefinicao-senha.html">Esqueceu sua senha? redefina aqui</a>
                 <button>Enviar</button>
             </form>
         </div>
         <div class="overlay-container">
         <div class="overlay-panel overlay-right">
             <h1>Olá, seja Bem vindo!</h1>
-            <p>Crie uma conta com seus dados e aprenda com a gente</p>
+            <p>Não possui uma conta, crie uma com seus dados e aprenda com a gente</p>
             <button class="ghost" id="signUp">Cadastrar-se</button>
+            
         </div>
         </div>
     </div>
