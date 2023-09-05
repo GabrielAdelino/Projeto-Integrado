@@ -14,8 +14,34 @@ signInButton.addEventListener('click', () => {
 	container.classList.remove("right-panel-active");
 });*/
 
+
+/*Java Script para confirmação de senha  */
+
+const form = document.getElementById("form");
+const password = document.getElementById("senha");
+const password = document.getElementById("confirm-senha");
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+});
+
+function checkPassword() {
+    const senhaValue = senha.value;
+    const confirm-senhaValue = confirm-senha.value;
+
+    if (confirm-senhaValue === "") {
+        setErrorFor(confirm-senha, 'Confirme sua senha.')
+    } else if (confirm-senha != senha) {
+        setErrorFor(confirm-senha, 'As senhas não conferem.');
+    }
+}
+
+/*Fim Java Script confrimação senha */
+
+
+
 document.getElementById("signUp").addEventListener("click", function() {
-    window.location.href = "pagina.Cadastro.html";
+    window.location.href = "paginaCadastro2.html";
 });
 
 
@@ -56,3 +82,4 @@ imgCadastro.addEventListener('click', function() {
     }
 }); 
  
+
