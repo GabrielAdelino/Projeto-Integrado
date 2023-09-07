@@ -15,7 +15,7 @@ signInButton.addEventListener('click', () => {
 });*/
 
 
-/*Java Script para confirmação de senha  */
+/*Java Script para confirmação de senha  
 
 const form = document.getElementById("form");
 const password = document.getElementById("senha");

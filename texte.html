@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tela de Login</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+  }
+
+  .half {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Add this to allow absolute positioning */
+  }
+
+  .green-half {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-half {
+    background-color: white;
+    color: black;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative; /* Add this to allow absolute positioning */
+  }
+
+  .login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px; /* Add margin to separate from the button */
+  }
+
+  .login-form label,
+  .login-form input {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .login-form button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  /* Absolute positioning for the image and button */
+  .login-gif {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: auto;
+  }
+
+  .register-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    color: green;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <div class="half login-half">
+    <div class="login-form">
+      <h2>Faça o Login</h2>
+      <form>
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" placeholder="Digite o CPF" required>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite a senha" required>
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+    <!-- Register Button -->
+    <button class="register-button">CADASTRO</button>
+  </div>
+  <div class="half green-half">
+    <h1>Bem-vindo ao Sistema de Apoio : Inclusão Digital</h1>
+    <p style="color: green;">Faça o Login para continuar</p>
+    <img src="https://media.istockphoto.com/id/1215821684/pt/vetorial/elderly-old-people-senior-people-at-home-playing-chess-chatting-on-computer-with.jpg?s=170667a&w=0&k=20&c=vqOByPGOKoUSQljTtlSxIDbLO5ZseibXhMslr852ssY=" alt="Imagem de Idosos" class="login-gif">
+  </div>
+</body>
+</html>
