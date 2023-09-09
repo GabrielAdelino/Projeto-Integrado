@@ -1,6 +1,6 @@
 
 
-/*CSS sidebar página pricipal*/
+/*CSS sidebar páginas do site*/
 
 * {
      margin: 0;
@@ -28,16 +28,28 @@
      overflow: hidden;
      align-items: flex-start;
      transition: 0.7s;
- }
- 
+ } 
+/*Fim CSS sidebar */
 
+/*Início CSS páginas site*/
  .conteudo {
     margin-left: 310px;
-    margin-top: 35px;
-
-
+    margin-right: 20px;
+    margin-top: 50px;
+    line-height: 1.5rem;
  }
 
+ /*Fonst google
+ font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+ .conteudo p {
+   font-family: 'Lato', sans-serif;
+   font-weight: 500;
+ }
+
+/*Header páginas site*/
  .header-site {
     top: 0;
     position: fixed;
@@ -47,15 +59,17 @@
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
  }
 
- .carousel-container {
+ /*.carousel-container {
     margin-left: 310px;
     margin-top: 75px;
  }
 
  .carousel{
     max-width: 100%;
- }
+ }*/
 
+
+/*CSS página aulas*/
  .div-1 {
     background-color: orangered;
     width: calc(100% - 355px);
@@ -76,23 +90,113 @@
     /*font-family: 'Work Sans', sans-serif;*/
     color: #fff;
     font-size: 45px;
+    
  }
 
- .aulas{
-    width: calc(100% - 300x);
-    height: 200px;
+ .aulas-group{
+   /* width: calc(100% - 300x);*/
+    /*height: 200px;*/
     margin-top: 60px;
     margin-left: 330px;
-    padding-right: 30px;
+    padding-left: 100px;
+    /*padding-right: 200px;*/
+    /*position: absolute;*/
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+ }
+ 
+ .aulas-group div {
+    width: 200px;
+    height: 165px;
+    background-color: #2B7530;
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    text-align: center;
+    margin-right: 100px;
+}
+
+.aulas-group h1 {
+   font-family: 'Lato', sans-serif;
+   position: relative;
+   margin-top: auto;
+   margin-bottom: auto;
+   align-items: center;
+   color: #fff;
+   font-size: 45px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+.aulas-group2 {
+   /*align-items: center;*/
+   margin-top: 67px;
+   display: flex;
+   margin-left: 330px;
+   padding-left: 100px;
+}
+
+.aulas-group2 div {
+    width: 200px;
+    height: 165px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 100px;
+    background-color: #2B7530;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+}
+
+.aulas-group2 h1 {
+   font-family: 'Lato', sans-serif;
+   position: relative;
+   margin-top: auto;
+   margin-bottom: auto;
+   align-items: center;
+   color: #fff;
+   font-size: 45px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+.titulo-aula {
+   padding-top: 50px;
+   margin-bottom: auto;
+   align-items: center;
+   text-align: center;
+   margin: 15px 0 15px 0;
+   
+}
+/* A última div não deve ter margem à direita 
+.aulas-group div:last-child {
+    margin-right: 0;
+    
+}*/
+
+
+
+ 
+/*
+ .aulas2 {
+    width: calc(100% - 350x);
+    height: 200px;
+    margin-top: 60px;
     position: absolute;
     background-color:#2B7530;
     border-radius: 15px;
+    margin-left: 610px;
+    padding-right: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
     display: flex;
     justify-content: center;
     align-items: center;
  }
 
- .aulas h1 {
+ .aulas2 h1 {
     font-family: 'Lato', sans-serif;
     position: relative;
     align-items: center;
@@ -102,10 +206,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 15px;
+    padding-left: 43px;
+    padding-right: 23px;
  }
  
+
+ .aulas3 {
+    width:calc(100% - 400x);
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 882px;
+    padding-right: 20px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    background-color:#2B7530;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .aulas3 h1 {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    align-items: center;
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 43px;
+    padding-right: 23px;
+ }*/
+/*Fim CSS página aulas*/
+
  
  ul {
          height: 100%;
