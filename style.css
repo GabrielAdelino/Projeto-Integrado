@@ -185,12 +185,18 @@ font-family: 'Work Sans', sans-serif; */
 /*Fim página Aulas*/
 
 /*Carousel página início, NÃO SEI SE VOU UTILIZAR*/
-.container {
+.container-fluid {
    width: calc(100% - 330px);
    margin-left: 330px; 
+   padding-right:30px ;
    margin-top: 60px;
    position: relative;
 }
+
+.carousel-inner img {
+   max-height: 350px;
+}
+
 
 /*Página CARDS Monitores*/
 
@@ -264,6 +270,7 @@ font-family: 'Work Sans', sans-serif; */
 }
 
 .img-perfil{
+   background-color: #d1d1d1;
    margin-left: 15px;
    border-radius: 70px;
 }
