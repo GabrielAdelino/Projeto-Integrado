@@ -67,6 +67,7 @@ font-family: 'Work Sans', sans-serif; */
     position: fixed;
     left: 300px;
     width: calc(100% - 300px);
+    z-index: 2;
     background-color: #2B7530;
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
  }
