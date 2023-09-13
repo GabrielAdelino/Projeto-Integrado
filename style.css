@@ -25,6 +25,7 @@
      position: fixed;
      top: 0;
      left: 0; 
+     z-index: 2;
      display: flex;
      overflow: hidden;
      align-items: flex-start;
@@ -387,6 +388,7 @@ font-family: 'Work Sans', sans-serif; */
      
      }
      
+     /*Estilização icone sidebar*/
      ul li.item-menu a .icon > i{
       font-size: 30px;
       margin-left: -5px;
@@ -430,6 +432,7 @@ font-family: 'Work Sans', sans-serif; */
          box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
         }
         
+        /*Icone sidebar*/
         .icon {
          position: absolute;
          left: 1rem;
@@ -438,13 +441,13 @@ font-family: 'Work Sans', sans-serif; */
          height: 1rem;
         }
 
-        .container {
+        /*.container {
             width: 400px;
             height: 500vh;
             left: 250px;
             margin-left:250px ;
             
-        }
+        }*/
         
         
             .texto {
