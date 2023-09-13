@@ -61,9 +61,8 @@ function checkPassword() {
         SetSuccessFor(confirmSenha);
     }
 }
+
 /*Fim Java Script confrimação senha */
-
-
 
 document.getElementById("signUp").addEventListener("click", function() {
     window.location.href = "paginaCadastro2.html";
