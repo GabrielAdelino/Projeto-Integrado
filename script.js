@@ -15,30 +15,54 @@ signInButton.addEventListener('click', () => {
 });*/
 
 
-/*Java Script para confirmação de senha  
+/*Java Script para confirmação de senha*/  
 
 const form = document.getElementById("form");
-const password = document.getElementById("senha");
-const password = document.getElementById("confirm-senha");
+const senha = document.getElementById("senha");
+const confirmSenha = document.getElementById("confirm-senha");
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
+    checkPassword();
 });
 
-function checkPassword() {
-    const senhaValue = senha.value;
-    const confirm-senhaValue = confirm-senha.value;
+function setErrorFor(input, message) {
+    const formControl = input.parentElement; // Obtém o elemento pai da entrada
+    const small = formControl.querySelector('small'); // Obtém o elemento <small> para mensagens de erro
 
-    if (confirm-senhaValue === "") {
-        setErrorFor(confirm-senha, 'Confirme sua senha.')
-    } else if (confirm-senha != senha) {
-        setErrorFor(confirm-senha, 'As senhas não conferem.');
+    // Adiciona a classe de erro à div de controle
+    formControl.className = 'input-box error';
+
+    // Define a mensagem de erro
+    small.innerText = message;
+}
+
+function SetSuccessFor(input){
+
+    const formControl = input.parentElement; // Obtém o elemento pai da entrada
+    formControl.classList.remove('error');
+    formControl.classList.add('success');
+    //formControl.className = 'input-box success';
+
+    const small = formControl.querySelector('small');
+    small.innerText = '';
+}
+
+function checkPassword() {
+
+    const senhaValue = senha.value.trim();
+    const confirmSenhaValue = confirmSenha.value.trim();
+
+    
+   
+    if (senhaValue !== confirmSenhaValue) {
+        setErrorFor(confirmSenha, "Senhas não são iguais");
+    } else {
+        SetSuccessFor(confirmSenha);
     }
 }
 
 /*Fim Java Script confrimação senha */
-
-
 
 document.getElementById("signUp").addEventListener("click", function() {
     window.location.href = "paginaCadastro2.html";
