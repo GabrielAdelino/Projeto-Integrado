@@ -26,11 +26,55 @@
      top: 0;
      left: 0; 
      z-index: 2;
+     z-index: 2;
      display: flex;
      overflow: hidden;
      align-items: flex-start;
      transition: 0.7s;
  } 
+
+ ul {
+   height: 100%;
+   list-style-type: none;
+}
+
+ul li.ativo{
+   background-color: rgb(37, 51, 34);
+   }
+
+ul li.item-menu{
+       transition: 0.2s;
+      
+   }
+
+ul li.item-menu:hover {
+  background-color: #fff;
+  border-radius: 15px;
+  margin-left: -15px;
+}
+
+ul li.item-menu a{
+   color: #383838;
+   font-family: sans-serif;
+   text-decoration: none;
+   font-size: 20px;
+   padding: 25px 2%;
+   display: flex;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   line-height: 40px;
+  }    
+ul li.item-menu a .txt-link{
+   margin-left: 40px;
+   margin-right: 15px;
+
+}
+
+ul li.item-menu a .icon > i{
+font-size: 30px;
+margin-left: -5px;
+}
+
 /*Fim CSS sidebar */
 
 /*Início CSS páginas site*/
@@ -351,49 +395,7 @@ font-family: 'Work Sans', sans-serif; */
  }*/
 
  
- ul {
-         height: 100%;
-         list-style-type: none;
-     }
  
- ul li.ativo{
-         background-color: rgb(37, 51, 34);
-         }
-      
- ul li.item-menu{
-             transition: 0.2s;
-            
-         }
- 
- ul li.item-menu:hover {
-        background-color: #fff;
-        border-radius: 15px;
-        margin-left: -15px;
-     }
- 
-     ul li.item-menu a{
-         color: #383838;
-         font-family: sans-serif;
-         text-decoration: none;
-         font-size: 20px;
-         padding: 25px 2%;
-         display: flex;
-         margin-bottom: 20px;
-         margin-left: 20px;
-         line-height: 40px;
-        }    
-     ul li.item-menu a .txt-link{
-         margin-left: 40px;
-         margin-right: 15px;
-     
-     }
-     
-     /*Estilização icone sidebar*/
-     ul li.item-menu a .icon > i{
-      font-size: 30px;
-      margin-left: -5px;
-     }
-  
  
      /*Estilização site, página navgeagção*/
  
@@ -441,13 +443,14 @@ font-family: 'Work Sans', sans-serif; */
          height: 1rem;
         }
 
-        /*.container {
+       /* .container {
             width: 400px;
             height: 500vh;
             left: 250px;
             margin-left:250px ;
             
         }*/
+        
         
         
             .texto {

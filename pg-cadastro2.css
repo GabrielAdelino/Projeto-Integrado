@@ -100,7 +100,8 @@ body {
 .input-box {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.1rem;
+    margin-bottom: 0.7rem;
+   
 }
 /*Código texte */
 
@@ -124,7 +125,7 @@ body {
 
 
 .input-box input {
-    margin: 0.6rem 0;
+   
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 10px;
