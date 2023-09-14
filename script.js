@@ -14,8 +14,14 @@ signInButton.addEventListener('click', () => {
 	container.classList.remove("right-panel-active");
 });*/
 
+/*Redirecionamento para tela cadastro*/  /*NÃO MEXER*/
+document.getElementById("signUp").addEventListener("click", function() {
+    window.location.href = "paginaCadastro2.html";
+});
 
-/*Java Script para confirmação de senha*/  
+/*Realizar os ajustes finais */
+
+/*Java Script para confirmação de senha 
 
 const form = document.getElementById("form");
 const senha = document.getElementById("senha");
@@ -64,12 +70,8 @@ function checkPassword() {
 
 /*Fim Java Script confrimação senha */
 
-document.getElementById("signUp").addEventListener("click", function() {
-    window.location.href = "paginaCadastro2.html";
-});
 
-
-/*JS para input senha, olhinho pra esconder a senha :) */
+/*JS para input senha, olhinho pra esconder a senha :) */  /*CÓDIGO FUNCIONA, NÃO MEXER */
  
 /*Olho img login*/
 let imgLogin = document.querySelector('.password-toggle');
@@ -106,4 +108,3 @@ imgCadastro.addEventListener('click', function() {
     }
 }); 
  
-
