@@ -13,9 +13,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+    background: #328838;
+	background: -webkit-linear-gradient(to right, #2b7530,#2b7530);
+	background: linear-gradient(to right, #2b7530,#2b7530);
 }
 
 .container{
@@ -84,7 +84,7 @@ body {
     display: block;
     width: 5rem;
     height: 0.3rem;
-    background-color: #FF416C;
+    background-color: #fe5d26;
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
@@ -102,6 +102,7 @@ body {
     flex-direction: column;
     margin-bottom: 1.1rem;
 }
+/*Código texte */
 
 /* Estilo para a classe de erro */
 .input-box.error {
@@ -119,6 +120,8 @@ body {
     font-size: 12px;
     margin-top: 4px;
 }
+/*Fim Código teste*/
+
 
 .input-box input {
     margin: 0.6rem 0;
@@ -133,7 +136,7 @@ body {
 }
 
 .input-box input:focus-visible {
-    outline: 1px solid #FF4B2B;
+    outline: 1px solid #fe5d26;
 }
 
 .input-box label,
