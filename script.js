@@ -48,4 +48,3 @@ function checkPassword() {
         SetSuccessFor(confirmSenha);
     }
 }
-
