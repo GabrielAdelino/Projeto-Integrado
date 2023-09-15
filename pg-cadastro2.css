@@ -104,17 +104,6 @@ body {
    
 }
 /*Código texte */
-
-/* Estilo para a classe de erro */
-.input-box.error {
-    border: 2px solid red; /* Borda vermelha para indicar erro */
-}
-
-/* Estilo para a classe de sucesso */
-.input-box.success {
-    border: 2px solid green; /* Borda verde para indicar sucesso */
-}
-
 /* Estilo para as mensagens de erro */
 .input-box small {
     color: red;
@@ -122,7 +111,6 @@ body {
     margin-top: 4px;
 }
 /*Fim Código teste*/
-
 
 .input-box input {
    

@@ -31,8 +31,10 @@ function SetSuccessFor(input){
     formControl.classList.add('success');
     //formControl.className = 'input-box success';
 
-    const small = formControl.querySelector('small');
-    small.innerText = '';
+    const successSmall = formControl.querySelector('.success');
+    successSmall.innerText = message;
+   /* const small = formControl.querySelector('small');
+    small.innerText = '';*/
 }
 
 function checkPassword() {
@@ -45,6 +47,6 @@ function checkPassword() {
     if (senhaValue !== confirmSenhaValue) {
         setErrorFor(confirmSenha, "Senhas não são iguais");
     } else {
-        SetSuccessFor(confirmSenha);
+        SetSuccessFor(confirmSenha, "Senhas iguais");
     }
 }
