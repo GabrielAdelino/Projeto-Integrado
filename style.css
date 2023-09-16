@@ -226,13 +226,15 @@ font-family: 'Work Sans', sans-serif; */
    width: calc(100% - 330px);
    margin-left: 330px; 
    padding-right:30px ;
-   margin-top: 60px;
+   margin-top: 75px;
    position: relative;
 }
 
+/* Ajustes das imagens carousel */
 .carousel-inner img {
-   max-height: 350px;
-   max-width: 550px;
+   max-height: 400px;
+   max-width: 730px;
+   margin-left: 125px;
    align-items: center;
 }
 
