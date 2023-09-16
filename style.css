@@ -120,7 +120,7 @@ font-family: 'Work Sans', sans-serif; */
 
 /*CSS página aulas*/
  .div-1 {
-    background-color: orangered;
+    /*background-color: orangered;*/
     width: calc(100% - 355px);
     height: 140px;
     margin-left: 330px;
@@ -129,9 +129,22 @@ font-family: 'Work Sans', sans-serif; */
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    /*border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);*/
+ }
+
+ .div-1 img {
+   max-width: 970px;
+   border-radius: 25px;
+   height: 170px;
+   width: 900px;
+   margin-left: 30px;
+   margin-top: 30px;
+   border-radius: 15px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
+   
  }
 
  .div-1 h1 {
