@@ -13,9 +13,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #328838;
+    background-image: url(img.png/img_fundo_cadastro.png);
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+   /* background: #328838;
 	background: -webkit-linear-gradient(to right, #2b7530,#2b7530);
-	background: linear-gradient(to right, #2b7530,#2b7530);
+	background: linear-gradient(to right, #2b7530,#2b7530);*/
 }
 
 .container{
