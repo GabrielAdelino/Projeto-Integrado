@@ -87,12 +87,23 @@
                 </div>
 
                 <div class="continue-button">
-                    <button type="submit"><a href="#">continuar</a></button>
+                    <button onclick="exibirAlerta()" type="submit"><a href="#">Enviar</a></button>
 
                 </div>
             </form>
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+
+function exibirAlerta(){
+    swal({
+        title: "Cadastro enviado!",
+        text: "Seu cadastro será analisado ",
+        icon: "success",
+      });
+}
+    </script>
 </body>
 </html>
