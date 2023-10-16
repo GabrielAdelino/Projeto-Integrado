@@ -45,7 +45,7 @@ function checkPassword() {
     
    
     if (senhaValue !== confirmSenhaValue) {
-        setErrorFor(confirmSenha, "Senhas não são iguais");
+        setErrorFor(confirmSenha, "Senhas não são iguais"); 
     } else {
         SetSuccessFor(confirmSenha, "Senhas iguais");
     }
