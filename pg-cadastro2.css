@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600&display=swap');
+
 
 * {
     padding: 0;
@@ -17,14 +18,11 @@ body {
     background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-   /* background: #328838;
-	background: -webkit-linear-gradient(to right, #2b7530,#2b7530);
-	background: linear-gradient(to right, #2b7530,#2b7530);*/
 }
 
 .container{
     width: 80%;
-    height: 80vh;
+    height: 500px;
     display: flex;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
@@ -34,6 +32,7 @@ body {
 .form-image{
     width: 50%;
     display: flex;
+    border-radius: 15px 0 0 15px;
     justify-content: center;
     align-items: center;
     background:aliceblue;
@@ -47,6 +46,7 @@ body {
 .form {
     width: 50%;
     display: flex;
+   border-radius: 0 15px 15px 0;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -55,12 +55,12 @@ body {
 }
 
 .form-header {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
 }
 
-.form-header h1::after {
+/*.form-header h1::after {
     content: '';
     display: block;
     width: 5rem;
@@ -69,7 +69,7 @@ body {
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
-}
+}*/
 
 .input-group {
     display: flex;
@@ -97,7 +97,8 @@ body {
    
     padding: 0.8rem 1.2rem;
     border: none;
-    border-radius: 10px;
+    background-color: #f7f7f7;
+    border-radius: 15px;
     box-shadow:1px 1px 6px #0000001c;
 }
 
@@ -111,13 +112,15 @@ body {
 
 .input-box label,
 .gender-title h6 {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 600;
+    margin-bottom: 0.4rem;
     color: #000000c0;
 }
 
 .input-box input::placeholder {
     color: #000000be;
+    font-weight: 500;
 }
 
 .gender-group {
@@ -135,7 +138,7 @@ body {
     margin-right: 0.35rem;
 }
 
-.gender-input label {
+.gender-input label { 
     font-size: 0.81rem;
     font-weight: 600;
     color: #000000c0;
@@ -147,7 +150,7 @@ body {
     border: none;
     background: #FF4B2B;
     padding: 0.80rem;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
