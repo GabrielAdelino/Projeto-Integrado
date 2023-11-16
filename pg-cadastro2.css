@@ -21,8 +21,8 @@ body {
 }
 
 .container{
-    width: 80%;
-    height: 500px;
+    width: 70%;
+    height: 600px;
     display: flex;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
@@ -55,7 +55,7 @@ body {
 }
 
 .form-header {
-    margin-bottom: 1rem;
+    margin-bottom: 1.9em;
     display: flex;
     justify-content: space-between;
 }
@@ -201,4 +201,17 @@ body {
     .gender-input {
         margin-top: 0.5rem;
     }
+}
+
+@media screen and(max-width: 1920px) {
+    .container{
+        width: 80%;
+       height: 500px;
+    }
+    .form-header {
+        margin-bottom: 1.2em;
+        display: flex;
+        justify-content: space-between;
+    }
+    
 }
