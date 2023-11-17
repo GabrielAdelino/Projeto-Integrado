@@ -26,7 +26,6 @@ body {
     display: flex;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
-
 }
 
 .form-image{
@@ -204,6 +203,7 @@ body {
 }
 
 @media screen and(max-width: 1080px) {
+@media screen and(max-width: 1868px) {
     .container{
         width: 70%;
        height: 600px;
