@@ -202,7 +202,6 @@ body {
     }
 }
 
-@media screen and(max-width: 1080px) {
 @media screen and(max-width: 1868px) {
     .container{
         width: 70%;
