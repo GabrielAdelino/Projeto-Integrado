@@ -208,7 +208,7 @@ body {
     }
 }
 
-@media screen and(max-width: 1920px) {
+@media screen and(max-width: 1868px) {
     .container{
         width: 80%;
        height: 500px;
