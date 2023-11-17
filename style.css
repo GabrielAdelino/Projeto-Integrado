@@ -19,7 +19,7 @@
  .sidebar {
      width: 300px; /*Mudar para 280px*/
      height: 100%;
-     background-color: #b4b4b4;
+     background-color: #b4d2c2;
      padding: 40px 0 40px 1%;
      box-shadow: 1px 0 0 black;
      position: fixed;
@@ -48,7 +48,7 @@ ul li.item-menu{
    }
 
 ul li.item-menu:hover {
-  background-color: #fff;
+  background-color: #dd9e6e;
   border-radius: 15px;
   margin-left: -15px;
 }
@@ -119,7 +119,7 @@ font-family: 'Work Sans', sans-serif; */
 
 
 /*CSS página aulas*/
- .div-1 {
+ .div-1{
     /*background-color: orangered;*/
     width: calc(100% - 355px);
     height: 140px;
@@ -155,31 +155,76 @@ font-family: 'Work Sans', sans-serif; */
     
  }
 
- .aulas-group{
-   /* width: calc(100% - 300x);*/
-    /*height: 200px;*/
-    margin-top: 60px;
-    margin-left: 330px;
-    padding-left: 100px;
-    /*padding-right: 200px;*/
-    /*position: absolute;*/
-    display: flex;
-    /*justify-content: space-between;*/
-    align-items: center;
+ .aulas-group {
+      /*width: calc(100% - 300x);*/
+      /*height: 200px;*/
+      margin-top: 60px;
+      margin-left: 330px;
+      padding-left: 100px;
+      /*padding-right: 200px;*/
+       /*position: absolute;*/
+      display: flex;
+      cursor: pointer;
+       /*justify-content: space-between;*/
+       align-items: center;
+   }
+  .aula1 img{
+   margin-top: -85px;
+   width: 200px;
+   height: 165px;
+   border-radius: 15px;
+  }
+
+  
+  .teste1 button{
+   border-radius: 15px;
+   
+  }
+  
+  .aula2 img{
+   margin-top: -20px;
+   width: 200px;
+   height: 165px;
+   border-radius: 15px;
+  }
+  
+  .teste1 button{
+   border-radius: 15px;
+   
+  }
+
+  .aula3 img{
+   margin-top: -20px;
+   width: 200px;
+   height: 165px;
+   border-radius: 15px;
+  }
+  /*teste */
+.titulo-aula img{
+   margin-top: -65px;
+   width: 200px;
+   height: 165px;
+   border-radius: 15px;
+}
+  .titulo-aula button{
+   border-radius: 15px;
+   cursor: pointer;
+   margin-top: -50px;
  }
- 
- .aulas-group div {
-    width: 200px;
-    height: 165px;
-    background-color: #2B7530;
-    border-radius: 15px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-			0 10px 10px rgba(0,0,0,0.22);
-    text-align: center;
-    margin-right: 100px;
+ /*final do teste*/
+
+.aulas-group div {
+   width: 200px;
+   height: 165px;
+   background-color: #2B7530;
+   border-radius: 15px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+   text-align: center;
+   margin-right: 100px;
 }
 
-.aulas-group h1 {
+   .aulas-group h1 {
    font-family: 'Lato', sans-serif;
    position: relative;
    margin-top: auto;
@@ -188,9 +233,12 @@ font-family: 'Work Sans', sans-serif; */
    color: #fff;
    font-size: 45px;
    text-align: center;
+   margin-right: 20px;
    display: flex;
    justify-content: center;
+   
 }
+ 
 
 .aulas-group2 {
    /*align-items: center;*/
@@ -198,8 +246,9 @@ font-family: 'Work Sans', sans-serif; */
    display: flex;
    margin-left: 330px;
    padding-left: 100px;
+   cursor: pointer;
 }
-
+   /*botão das aulas de baixo*/
 .aulas-group2 div {
     width: 200px;
     height: 165px;
@@ -210,6 +259,40 @@ font-family: 'Work Sans', sans-serif; */
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
 }
+.aula4 img{
+   margin-top: -20px;
+   width: 200px;
+   height: 165px;
+   border-radius: 15px;
+  }
+  
+  .teste1 button{
+   border-radius: 15px;
+   
+  }
+
+  .aula5 img{
+   margin-top: -20px;
+   width: 200px;
+   height: 165px;
+   border-radius: 15px;
+  }
+  
+  .teste1 button{
+   border-radius: 15px;
+   
+  }
+  .aula6 img{
+   margin-top: -20px;
+   width: 200px;
+   height: 165px;
+   border-radius: 15px;
+  }
+  
+  .teste1 button{
+   border-radius: 15px;
+   
+  }
 
 .aulas-group2 h1 {
    font-family: 'Lato', sans-serif;

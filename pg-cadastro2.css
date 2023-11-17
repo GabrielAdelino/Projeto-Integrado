@@ -152,7 +152,7 @@ body {
 }
 
 .continue-button button:hover {
-    background-color: #ff4b2f;
+    background-color: #ff4b4f;
 }
 
 .continue-button button a {
@@ -172,6 +172,7 @@ body {
         width: 100%;
     }
 }
+
 
 @media screen and (max-width: 1064px) {
     .container {
