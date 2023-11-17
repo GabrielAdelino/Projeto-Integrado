@@ -12,13 +12,16 @@
  
  body {
      height: 100vh;
-     background-color: #fff;
      margin: 0;
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: center;
  }
   
  .sidebar {
      width: 300px; /*Mudar para 280px*/
      height: 100%;
+     background-color: #4A5859;
      background-color: #b4d2c2;
      padding: 40px 0 40px 1%;
      box-shadow: 1px 0 0 black;
@@ -48,13 +51,13 @@ ul li.item-menu{
    }
 
 ul li.item-menu:hover {
-  background-color: #dd9e6e;
+  background-color: #fff;
   border-radius: 15px;
   margin-left: -15px;
 }
 
 ul li.item-menu a{
-   color: #383838;
+   color: #fff;
    font-family: sans-serif;
    text-decoration: none;
    font-size: 20px;
