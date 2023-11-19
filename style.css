@@ -19,7 +19,7 @@
  }
   
  .sidebar {
-     width: 300px; /*Mudar para 280px*/
+     width: 240px; /*Mudar para 280px*/
      height: 100%;
      background-color: #4A5859;
      padding: 40px 0 40px 1%;
@@ -50,7 +50,7 @@ ul li.item-menu{
    }
 
 ul li.item-menu:hover {
-  background-color: #fff;
+  background-color: #69b8ff;
   border-radius: 15px;
   margin-left: -15px;
 }
@@ -82,7 +82,7 @@ margin-left: -5px;
 /*Início CSS páginas site*/
  .conteudo {
    justify-content: center;
-    margin-left: 320px;
+    margin-left: 270px;
     margin-right: 20px;
     margin-top: 50px;
     line-height: 1.5rem;
@@ -94,12 +94,21 @@ margin-left: -5px;
  }
 
  .conteudo p {
-   margin-top: 20px;
+   margin-top: 5px;
+   line-height: 1.5;
    font-size: 20px;
    font-family: 'Arial', sans-serif;
    font-weight: 400;
  }
  
+ .conteudo img{
+   max-width:500px;
+    max-height:700px;
+    margin-top: 30px;
+    margin-left: 270px;
+    width: auto;
+    height: auto;
+ }
 
 
  /*Fonst google
@@ -112,8 +121,8 @@ font-family: 'Work Sans', sans-serif; */
  .header-site {
     top: 0;
     position: fixed;
-    left: 300px;
-    width: calc(100% - 300px);
+    left: 240px;
+    width: calc(100% - 240px);
     z-index: 2;
     background-color: #2b7530;
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
@@ -125,7 +134,7 @@ font-family: 'Work Sans', sans-serif; */
     /*background-color: orangered;*/
     width: calc(100% - 355px);
     height: 140px;
-    margin-left: 330px;
+    margin-left: 297px;
     margin-top: 70px;
     padding-right: 20px;
     display: flex;
@@ -161,7 +170,7 @@ font-family: 'Work Sans', sans-serif; */
       /*width: calc(100% - 300x);*/
       /*height: 200px;*/
       margin-top: 60px;
-      margin-left: 330px;
+      margin-left: 297px;
       padding-left: 100px;
       /*padding-right: 200px;*/
        /*position: absolute;*/
@@ -218,6 +227,7 @@ font-family: 'Work Sans', sans-serif; */
 .aulas-group div {
    width: 200px;
    height: 165px;
+   margin-top: 40px;
    background-color: #2B7530;
    border-radius: 15px;
    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
@@ -246,7 +256,7 @@ font-family: 'Work Sans', sans-serif; */
    /*align-items: center;*/
    margin-top: 67px;
    display: flex;
-   margin-left: 330px;
+   margin-left: 297px;
    padding-left: 100px;
    cursor: pointer;
 }
@@ -322,7 +332,7 @@ font-family: 'Work Sans', sans-serif; */
 /*Carousel página início */
 .container-fluid {
    width: calc(100% - 330px);
-   margin-left: 330px; 
+   margin-left: 300px; 
    padding-right:30px ;
    margin-top: 75px;
    position: relative;
@@ -342,7 +352,7 @@ font-family: 'Work Sans', sans-serif; */
 .card-monitor1{
    width: calc(100% - 665px);
    margin-top: 50px;
-   margin-left: 330px;
+   margin-left: 290px;
    padding-right: 20px;
    height: 130px;
     display: flex;
@@ -365,7 +375,7 @@ font-family: 'Work Sans', sans-serif; */
 .card-monitor2{
    width: calc(100% - 665px);
    margin-top: 50px;
-   margin-left: 330px;
+   margin-left: 290px;
    padding-right: 20px;
    height: 130px;
    display: flex;
@@ -388,7 +398,7 @@ font-family: 'Work Sans', sans-serif; */
 .card-monitor3 {
    width: calc(100% - 665px);
    margin-top: 50px;
-   margin-left: 330px;
+   margin-left: 290px;
    padding-right: 20px;
    height: 130px;
    display: flex;
@@ -460,7 +470,7 @@ font-family: 'Work Sans', sans-serif; */
          width: 1rem;
          height: 1rem;
         }
-
+     
          .texto {
              text-align: center;
              margin-bottom: 20px; 
@@ -471,4 +481,3 @@ font-family: 'Work Sans', sans-serif; */
              color: white;
             }
             
-        
