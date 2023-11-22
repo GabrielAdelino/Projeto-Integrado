@@ -180,37 +180,55 @@ font-family: 'Work Sans', sans-serif; */
        /*justify-content: space-between;*/
        align-items: center;
    }
-  .aula1 img{
-   margin-top: -85px;
+
+  .aula1 button {
    width: 200px;
    height: 165px;
-   border-radius: 15px;
+    margin-top: 0px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+    background-image: url(/img.png/conceitos1.png) ;
   }
 
-  
-  .teste1 button{
-   border-radius: 15px;
-   
-  }
-  
-  .aula2 img{
-   margin-top: -20px;
+  .aula2 button {
    width: 200px;
    height: 165px;
-   border-radius: 15px;
-  }
-  
-  .teste1 button{
-   border-radius: 15px;
-   
+    margin-top: 0px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+    background-image: url(/img.png/sistemas2.png) ;
   }
 
-  .aula3 img{
-   margin-top: -20px;
+  .aula3 button {
    width: 200px;
    height: 165px;
-   border-radius: 15px;
+    margin-top: 0px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+    background-image: url(/img.png/navegabilidade3.png) ;
   }
+
+  .aula4 button {
+   width: 200px;
+   height: 165px;
+    margin-top: 0px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+    background-image: url(/img.png/word4.png) ;
+  }
+  
   /*teste */
 .titulo-aula img{
    margin-top: -65px;
@@ -229,29 +247,13 @@ font-family: 'Work Sans', sans-serif; */
    width: 200px;
    height: 165px;
    margin-top: 40px;
-   background-color: #2B7530;
-   border-radius: 15px;
-   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-        0 10px 10px rgba(0,0,0,0.22);
+   /*background-color: #2B7530;*/
+   /*border-radius: 15px;*/
+   /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);*/
    text-align: center;
    margin-right: 100px;
 }
-
-   .aulas-group h1 {
-   font-family: 'Lato', sans-serif;
-   position: relative;
-   margin-top: auto;
-   margin-bottom: auto;
-   align-items: center;
-   color: #fff;
-   font-size: 45px;
-   text-align: center;
-   margin-right: 20px;
-   display: flex;
-   justify-content: center;
-   
-}
- 
 
 .aulas-group2 {
    /*align-items: center;*/
@@ -272,39 +274,41 @@ font-family: 'Work Sans', sans-serif; */
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
 }
-.aula4 img{
-   margin-top: -20px;
+
+  .aula4 button {
    width: 200px;
    height: 165px;
-   border-radius: 15px;
-  }
-  
-  .teste1 button{
-   border-radius: 15px;
-   
+    margin-top: 0px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+    background-image: url(/img.png/word4.png) ;
   }
 
-  .aula5 img{
-   margin-top: -20px;
+  .aula5 button {
    width: 200px;
    height: 165px;
-   border-radius: 15px;
+    margin-top: 0px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+    background-image: url(/img.png/excel5.png) ;
   }
   
-  .teste1 button{
-   border-radius: 15px;
-   
-  }
-  .aula6 img{
-   margin-top: -20px;
+  .aula6 button {
    width: 200px;
    height: 165px;
-   border-radius: 15px;
-  }
-  
-  .teste1 button{
-   border-radius: 15px;
-   
+    margin-top: 0px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+    background-image: url(/img.png/extras6.png) ;
   }
 
 .aulas-group2 h1 {

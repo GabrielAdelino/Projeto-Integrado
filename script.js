@@ -50,3 +50,27 @@ function checkPassword() {
         SetSuccessFor(confirmSenha, "Senhas iguais");
     }
 }
+
+function abrirPDF1(){
+    window.location.href = "pasta.pdf/CONCEITOS - Aula.pdf";
+}
+
+function abrirPDF2(){
+    window.location.href = "pasta.pdf/SO - Aula.pdf";
+}
+
+function abrirPDF3(){
+    window.location.href = "pasta.pdf/NAVEGABILIDADE - Aula.pdf";
+}
+
+function abrirPDF4(){
+    window.location.href = "pasta.pdf/WORD - Aula.pdf";
+}
+
+function abrirPDF5(){
+    window.location.href = "pasta.pdf/EXCEL - Aula.pdf";
+}
+
+function abrirPDF6(){
+    window.location.href = "pasta.pdf/Leitura Preditiva.pdf";
+}
